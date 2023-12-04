@@ -1,8 +1,8 @@
-﻿<FluentDesignSystemProvider AccentBaseColor="#dedbef" BaseLayerLuminance="0.15f">
+﻿@* <FluentDesignSystemProvider AccentBaseColor="#dedbef" BaseLayerLuminance="0.15f"> *@
 <Router AppAssembly="@typeof(Program).Assembly">
     <Found Context="routeData">
         <RouteView RouteData="@routeData" DefaultLayout="@typeof(Layout.MainLayout)" />
         <FocusOnNavigate RouteData="@routeData" Selector="h1" />
     </Found>
 </Router>
-</FluentDesignSystemProvider>
+@* </FluentDesignSystemProvider> *@
